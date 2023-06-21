@@ -13,7 +13,7 @@
       [BehaviorName:Passive]
 
       [Triggers:(NPC-SY)RemoveBlocks-Trigger]
-	  
+  
       </Description>
 
     </EntityComponent>
@@ -32,8 +32,7 @@
       
       [Triggers:(NPC-SY)SpawnCluster-Trigger]
       [Triggers:(NPC-SY)RemoveBlocks-Trigger]
-      
-	  
+
       </Description>
       
     </EntityComponent>
@@ -112,6 +111,59 @@
       
     </EntityComponent>
 
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-SG-Drone-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [WeaponSystem:NPC-SY-DroneGuns]  
+      </Description>
+      
+    </EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-LG-Ship-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      </Description>
+      
+    </EntityComponent>
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-Special-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:NPC-SY-RemoveConnectingBlocks-Trigger]
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-LG-Guppy-03-Behavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:NPC-SY-RemoveHydroTanks-Trigger]
+      </Description>
+      
+    </EntityComponent>
 
   </EntityComponents>
 </Definitions>

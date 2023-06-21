@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Service Station #01</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Service Station #01">
+			<Position>
+				<X>0.0</X>
+				<Y>-7.6</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)ServiceStationBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Service Station #02</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Service Station #02">
+			<Position>
+				<X>0.0</X>
+				<Y>-7.5</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)ServiceStationBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+
+	</SpawnGroups>
+</Definitions>

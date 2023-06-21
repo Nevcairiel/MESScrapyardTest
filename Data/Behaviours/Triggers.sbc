@@ -12,13 +12,12 @@
       <Description>
 
       [RivalAI Trigger]
-      [Type:Timer]
+      [Type:PlayerNear]
       [UseTrigger:true]
-      [StartsReady:false]
-      [MinCooldownMs:10000]
-      [MaxCooldownMs:12000]
+      [StartsReady:true]
+      [TargetDistance:2800]
       [Actions:(NPC-SY)RemoveBlocks-Action]
-      
+      [MaxActions:1]
       </Description>
       
     </EntityComponent> <!-- (NPC-SY)RemoveBlocks-Trigger -->
@@ -63,7 +62,6 @@
       [Actions:(NPC-SY)SpawnBillboard-Action]
       [Actions:(NPC-SY)SpawnHangar-Action]
       [Actions:(NPC-SY)SpawnHighway-Action]
-      [Actions:(NPC-SY)SpawnIndustrial-Action]
       [Actions:(NPC-SY)SpawnOffice-Action]
       [Actions:(NPC-SY)SpawnPipeline-Action]
       [Actions:(NPC-SY)SpawnPlanes-Action]
@@ -72,12 +70,16 @@
       [Actions:(NPC-SY)SpawnSilo-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv-Action]
       [Actions:(NPC-SY)SpawnVehicleMil-Action]
-      [Actions:(NPC-SY)SpawnWarehouse-Action]
       [Actions:(NPC-SY)SpawnWatchTower-Action]
       [Actions:(NPC-SY)SpawnWaterTower-Action]
       [Actions:(NPC-SY)SpawnWindTower-Action]
 
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]    
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
 
       </Description>
@@ -131,31 +133,6 @@
       
     </EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>(NPC-SY)SpawnIndustrial-Action</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Action]
-      [SpawnEncounter:true]
-      [Spawner:(NPC-SY)WarehouseSecondary-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Dumpster-Spawner]
-      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
-      [Spawner:(NPC-SY)Powerline-Spawner]
-      [Spawner:(NPC-SY)Powerline-Spawner]
-
-      </Description>
-      
-    </EntityComponent>
-
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
       <Id>
           <TypeId>Inventory</TypeId>
@@ -173,7 +150,6 @@
       [Spawner:(NPC-SY)TowerCrane-Spawner]
       [Spawner:(NPC-SY)Dumpster-Spawner]
       [Spawner:(NPC-SY)Excavator-Spawner]
-      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -193,7 +169,6 @@
       [Spawner:(NPC-SY)Pipeline-Spawner]
       [Spawner:(NPC-SY)Pipeline-Spawner]
       [Spawner:(NPC-SY)PipelineB-Spawner]
-      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -228,8 +203,6 @@
       [Spawner:(NPC-SY)Powerline-Spawner]
       [Spawner:(NPC-SY)Powerline-Spawner]
       [Spawner:(NPC-SY)Powerline-Spawner]
-      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
-      [Spawner:(NPC-SY)VehiclePlaneCore-Spawner]
 
       </Description>
       
@@ -269,7 +242,6 @@
       [Spawner:(NPC-SY)Fence-Spawner]
       [Spawner:(NPC-SY)Fence-Spawner]
       [Spawner:(NPC-SY)Fence-Spawner]
-      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -339,24 +311,6 @@
       
     </EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>(NPC-SY)SpawnWarehouse-Action</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Action]
-      [SpawnEncounter:true]
-      [Spawner:(NPC-SY)Warehouse-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Industrial-Spawner]
-      [Spawner:(NPC-SY)Powerline-Spawner]
-
-      </Description>
-      
-    </EntityComponent>
-
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -416,6 +370,24 @@
       </Description>
       
     </EntityComponent>
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -564,10 +536,92 @@
       
     </EntityComponent>
 
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-RemoveConnectingBlocks-Trigger</SubtypeId>
+      </Id>
+      <Description>
 
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:true]
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:2000]
+      [Actions:NPC-SY-RemoveConnectingBlocks-Action]
+      [MaxActions:1]
+      </Description>
+      
+    </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-RemoveConnectingBlocks-Action</SubtypeId>
+      </Id>
+      <Description>
 
+      [RivalAI Action]
+      
+      [RazeBlocksWithNames:true]
+      [RazeBlocksNames:DeleteThisBlock]
+      </Description>
+      
+    </EntityComponent>
 
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-RemoveHydroTanks-Trigger</SubtypeId>
+      </Id>
+      <Description>
 
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:true]
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:2000]
+      [Actions:NPC-SY-RemoveHydroTanks1-Action]
+      [Actions:NPC-SY-RemoveHydroTanks2-Action]
+      [Actions:NPC-SY-RemoveConnectingBlocks-Action]
+      [MaxActions:1]
+      [ActionExecution:Random]
+      </Description>
+      
+    </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-RemoveHydroTanks1-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [RazeBlocksWithNames:true]
+      [RazeBlocksNames:Hydrogen Tank 2]
+     
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>NPC-SY-RemoveHydroTanks2-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [RazeBlocksWithNames:true]
+      [RazeBlocksNames:Hydrogen Tank 2]
+      [RazeBlocksNames:Hydrogen Tank]
+      </Description>
+      
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

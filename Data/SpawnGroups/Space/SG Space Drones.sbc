@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>NPC-SY-SG-SpaceRandomEncounters</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+	
+			[SpaceRandomEncounter:true]
+			[FactionOwner:SCRAP]
+			[ReplenishSystems:true]				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ShiftBlockColorsHue:true]
+			[RandomHueShift:true]
+			[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-SY) Fruit Fly">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Locust Drone">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) Space Wasp Drone">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Firefly Drone">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Monarch">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Firefly Drone Mk2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Monarch Drone Mk2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Firefly Drone Mk3">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Space Wasp Drone Mk2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Locust Drone Mk2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-SG-Drone-Behavior</Behaviour>
+				</Prefab>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>NPC-SY-LG-SpaceRandomEncounters</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+					
+			[SpaceRandomEncounter:true]			
+			[FactionOwner:SCRAP]
+			[ReplenishSystems:true]				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ReduceBlockBuildStates:true]
+			[MinimumBlocksPercent:60]
+			[MaximumBlocksPercent:75]
+			[MinimumBuildPercent:10]
+			[MaximumBuildPercent:30]		
+			[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-SY) The Guppy 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) The Guppy 03">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-LG-Guppy-03-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) WKX-LG Wasp 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) AnIn 'Columbus' 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Skippy the Space Frog">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Transport Square">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Automated Division Star Eater">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Quasi Modo Mk1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Sojourner">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Gnat">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Deep Space Cryo Transporter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) WKZ-LG Bio-weapon Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) ACM Hecate">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Red Wrangler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) THI-864-S Baldrin">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) Telesto Gas Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-Special-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) The Hammerhead">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-Special-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) The Voyager">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>NPC-SY-Special-Behavior</Behaviour>
+				</Prefab>
+
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

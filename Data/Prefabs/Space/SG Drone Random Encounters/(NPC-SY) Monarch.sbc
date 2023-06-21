@@ -1,0 +1,2471 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-SY) Monarch" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>103905779270330520</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>103905779270330520</Name>
+          <PositionAndOrientation>
+            <Position x="0" y="0" z="0" />
+            <Forward x="-0.378522277" y="-0.250633955" z="-0.8910126" />
+            <Up x="-0.8906647" y="-0.163319618" z="0.424314857" />
+            <Orientation>
+              <X>0.07148329</X>
+              <Y>0.222224727</Y>
+              <Z>0.7593089</Z>
+              <W>0.607417762</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+              <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+              <EntityId>108686385734839638</EntityId>
+              <IntegrityPercent>0.8758838</IntegrityPercent>
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyAutopilotComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_AutopilotComponent">
+                      <AutoPilotEnabled>false</AutoPilotEnabled>
+                      <FlightMode>0</FlightMode>
+                      <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+                      <Waypoints />
+                      <DockingModeEnabled>false</DockingModeEnabled>
+                      <CollisionAvoidance>false</CollisionAvoidance>
+                      <Direction>0</Direction>
+                      <AutopilotSpeedLimit>100</AutopilotSpeedLimit>
+                      <WaitForFreeWay>false</WaitForFreeWay>
+                      <WaypointThresholdDistance>0</WaypointThresholdDistance>
+                      <Coords />
+                      <Names />
+                      <LookAtPosition xsi:nil="true" />
+                      <FacingDirection>Forward</FacingDirection>
+                      <AlignToGravity>true</AlignToGravity>
+                      <MinHeightAboveTerrain>25</MinHeightAboveTerrain>
+                      <IsWorkAreaReturningToStart>false</IsWorkAreaReturningToStart>
+                      <WorkAreaStartForward>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </WorkAreaStartForward>
+                      <PitchAngle>0</PitchAngle>
+                      <RollAngle>0</RollAngle>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Remote Control</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <AutoPilotEnabled>false</AutoPilotEnabled>
+              <FlightMode>0</FlightMode>
+              <BindedCamera>0</BindedCamera>
+              <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+              <Waypoints />
+              <Direction>0</Direction>
+              <DockingModeEnabled>false</DockingModeEnabled>
+              <CollisionAvoidance>false</CollisionAvoidance>
+              <Coords />
+              <Names />
+              <WaypointThresholdDistance>0</WaypointThresholdDistance>
+              <IsMainRemoteControl>false</IsMainRemoteControl>
+              <WaitForFreeWay>false</WaitForFreeWay>
+              <IsUpdatedSave>true</IsUpdatedSave>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>104258625733229351</EntityId>
+              <Min x="1" y="0" z="0" />
+              <IntegrityPercent>0.9519573</IntegrityPercent>
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>135912315939218104</EntityId>
+              <Min x="2" y="0" z="0" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>85569183604686253</EntityId>
+              <Min x="3" y="0" z="0" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>88192479669836083</EntityId>
+              <Min x="-1" y="0" z="0" />
+              <IntegrityPercent>0.9679715</IntegrityPercent>
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>136524821513680428</EntityId>
+              <Min x="-2" y="0" z="0" />
+              <IntegrityPercent>0.9839858</IntegrityPercent>
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>113840124126489398</EntityId>
+              <Min x="-3" y="0" z="0" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 6</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>82306861117207434</EntityId>
+              <Min x="-3" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 8</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>72800669831837770</EntityId>
+              <Min x="3" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 7</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+              <SubtypeName />
+              <EntityId>78761882610354984</EntityId>
+              <Min x="-4" y="0" z="-4" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>4</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_AmmoMagazine">
+                            <SubtypeName>NATO_25x184mm</SubtypeName>
+                            <ProjectilesCount>0</ProjectilesCount>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Gatling Gun 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>false</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <GunBase>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                <RemainingAmmosList />
+                <LastShootTime>0</LastShootTime>
+              </GunBase>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>136182494308485463</EntityId>
+              <Min x="-1" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>123222107655248197</EntityId>
+              <Min x="1" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Gyroscope 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrustSciFi</SubtypeName>
+              <EntityId>98821136775000209</EntityId>
+              <Min x="2" y="0" z="-2" />
+              <IntegrityPercent>0.4857143</IntegrityPercent>
+              <BuildPercent>0.99999994</BuildPercent>
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Sci-Fi Ion Thruster</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrustSciFi</SubtypeName>
+              <EntityId>141794789870164200</EntityId>
+              <Min x="-2" y="0" z="-2" />
+              <IntegrityPercent>0.948571444</IntegrityPercent>
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Sci-Fi Ion Thruster 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
+              <Min x="0" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrustSciFi</SubtypeName>
+              <EntityId>136611598320849627</EntityId>
+              <Min x="-4" y="0" z="0" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Sci-Fi Ion Thruster 13</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrustSciFi</SubtypeName>
+              <EntityId>111287480523422164</EntityId>
+              <Min x="-2" y="-2" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Sci-Fi Ion Thruster 15</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="0" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="1" z="-1" />
+              <IntegrityPercent>0.73</IntegrityPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-1" />
+              <IntegrityPercent>0.82</IntegrityPercent>
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="-1" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <IntegrityPercent>0.55</IntegrityPercent>
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-2" y="2" z="-1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="1" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="1" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="1" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="0" z="-2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="0" z="-2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="-1" z="-2" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="-1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>96885710451183894</EntityId>
+              <Min x="1" y="-1" z="-1" />
+              <IntegrityPercent>0.328571767</IntegrityPercent>
+              <BuildPercent>0.99999994</BuildPercent>
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="-1" z="0" />
+              <IntegrityPercent>0.64</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="-1" z="0" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="-1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="0" y="-1" z="-1" />
+              <IntegrityPercent>0.91</IntegrityPercent>
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="-1" z="0" />
+              <IntegrityPercent>0.91</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-1" y="1" z="-2" />
+              <IntegrityPercent>0.28</IntegrityPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-2" y="1" z="-2" />
+              <IntegrityPercent>0.37</IntegrityPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-3" y="1" z="-2" />
+              <IntegrityPercent>0.91</IntegrityPercent>
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="3" y="0" z="-2" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-3" y="0" z="-2" />
+              <IntegrityPercent>0.73</IntegrityPercent>
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-4" y="1" z="-1" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="-3" y="1" z="-1" />
+              <IntegrityPercent>0.82</IntegrityPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="3" y="1" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="-3" y="1" z="0" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="1" z="-1" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="1" z="-1" />
+              <IntegrityPercent>0.64</IntegrityPercent>
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="1" z="0" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="1" z="0" />
+              <IntegrityPercent>0.91</IntegrityPercent>
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="2" y="1" z="1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-2" y="1" z="1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="2" y="1" z="2" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="1" y="1" z="2" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="1" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="4" y="1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="3" y="-1" z="1" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="2" y="-1" z="1" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="2" y="-1" z="2" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="3" y="-1" z="2" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
+              <SubtypeName>SmallBlockBeacon</SubtypeName>
+              <EntityId>82950021571760361</EntityId>
+              <Min x="-1" y="0" z="1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Monarch</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>20000</BroadcastRadius>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="-1" z="3" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-5" y="1" z="-1" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.575" y="0.15" z="0.2" />
+              <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="-1" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-3" y="-1" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+              <SubtypeName>TimerBlockSmall</SubtypeName>
+              <EntityId>89042476132174370</EntityId>
+              <Min x="3" y="0" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Timer Block On</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff_On</Action>
+                      <BlockEntityId>82950021571760361</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Start</Action>
+                      <BlockEntityId>86314451607506507</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <Delay>300000</Delay>
+              <CurrentTime>0</CurrentTime>
+              <IsCountingDown>false</IsCountingDown>
+              <Silent>false</Silent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+              <SubtypeName>TimerBlockSmall</SubtypeName>
+              <EntityId>86314451607506507</EntityId>
+              <Min x="2" y="0" z="1" />
+              <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Timer Block Off</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff_Off</Action>
+                      <BlockEntityId>82950021571760361</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Start</Action>
+                      <BlockEntityId>89042476132174370</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <Delay>3000</Delay>
+              <CurrentTime>2004</CurrentTime>
+              <IsCountingDown>true</IsCountingDown>
+              <Silent>false</Silent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <Skeleton>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="1" />
+              <BoneOffset x="129" y="128" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="4" z="3" />
+              <BoneOffset x="126" y="113" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="4" z="-1" />
+              <BoneOffset x="127" y="125" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="4" z="4" />
+              <BoneOffset x="128" y="104" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-4" z="1" />
+              <BoneOffset x="126" y="130" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-4" z="0" />
+              <BoneOffset x="128" y="141" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="2" />
+              <BoneOffset x="127" y="95" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="5" />
+              <BoneOffset x="127" y="112" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="4" />
+              <BoneOffset x="127" y="127" z="99" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="1" z="1" />
+              <BoneOffset x="136" y="129" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="-1" />
+              <BoneOffset x="146" y="132" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="-2" />
+              <BoneOffset x="116" y="120" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="-2" />
+              <BoneOffset x="149" y="121" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="-1" />
+              <BoneOffset x="111" y="126" z="114" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="0" z="0" />
+              <BoneOffset x="106" y="121" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="-3" />
+              <BoneOffset x="134" y="128" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="0" z="1" />
+              <BoneOffset x="130" y="125" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="4" z="0" />
+              <BoneOffset x="107" y="110" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="4" z="1" />
+              <BoneOffset x="107" y="107" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-3" z="2" />
+              <BoneOffset x="138" y="128" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="2" />
+              <BoneOffset x="123" y="124" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-3" z="1" />
+              <BoneOffset x="131" y="129" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="1" />
+              <BoneOffset x="124" y="128" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="-1" />
+              <BoneOffset x="140" y="126" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="-2" />
+              <BoneOffset x="109" y="133" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="4" z="1" />
+              <BoneOffset x="127" y="113" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="4" z="-1" />
+              <BoneOffset x="130" y="116" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="4" z="3" />
+              <BoneOffset x="130" y="103" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="4" z="2" />
+              <BoneOffset x="128" y="110" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="4" z="4" />
+              <BoneOffset x="134" y="104" z="158" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-1" z="0" />
+              <BoneOffset x="127" y="127" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="1" z="1" />
+              <BoneOffset x="119" y="128" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="0" z="0" />
+              <BoneOffset x="151" y="138" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="0" z="1" />
+              <BoneOffset x="154" y="120" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="1" z="2" />
+              <BoneOffset x="105" y="123" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="4" z="0" />
+              <BoneOffset x="129" y="120" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-4" z="0" />
+              <BoneOffset x="135" y="156" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="4" z="1" />
+              <BoneOffset x="125" y="130" z="142" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-4" z="1" />
+              <BoneOffset x="118" y="151" z="113" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="3" z="-2" />
+              <BoneOffset x="127" y="127" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="2" z="1" />
+              <BoneOffset x="127" y="121" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="2" z="-2" />
+              <BoneOffset x="127" y="159" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="2" z="2" />
+              <BoneOffset x="128" y="119" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="4" z="3" />
+              <BoneOffset x="131" y="112" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="4" z="-1" />
+              <BoneOffset x="138" y="118" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="4" z="4" />
+              <BoneOffset x="157" y="97" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="3" z="4" />
+              <BoneOffset x="111" y="125" z="156" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="3" z="3" />
+              <BoneOffset x="119" y="127" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="3" z="2" />
+              <BoneOffset x="127" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="5" />
+              <BoneOffset x="137" y="109" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="3" z="1" />
+              <BoneOffset x="110" y="129" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="3" z="0" />
+              <BoneOffset x="102" y="128" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="1" />
+              <BoneOffset x="128" y="128" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-1" z="-2" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="1" />
+              <BoneOffset x="125" y="130" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="8" />
+              <BoneOffset x="124" y="118" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="7" />
+              <BoneOffset x="127" y="122" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="6" />
+              <BoneOffset x="124" y="114" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="5" />
+              <BoneOffset x="130" y="119" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-1" z="2" />
+              <BoneOffset x="127" y="127" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="1" />
+              <BoneOffset x="129" y="134" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="0" />
+              <BoneOffset x="128" y="132" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-1" z="0" />
+              <BoneOffset x="127" y="127" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="-3" />
+              <BoneOffset x="154" y="122" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="-2" />
+              <BoneOffset x="152" y="152" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="1" z="2" />
+              <BoneOffset x="133" y="129" z="112" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="-1" />
+              <BoneOffset x="143" y="123" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-1" z="-1" />
+              <BoneOffset x="128" y="130" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="1" z="1" />
+              <BoneOffset x="111" y="131" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="-1" />
+              <BoneOffset x="118" y="125" z="99" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="1" z="0" />
+              <BoneOffset x="115" y="130" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="-2" />
+              <BoneOffset x="127" y="127" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="0" />
+              <BoneOffset x="127" y="127" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="2" />
+              <BoneOffset x="127" y="127" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="4" />
+              <BoneOffset x="127" y="127" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="4" z="1" />
+              <BoneOffset x="126" y="110" z="116" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="4" z="2" />
+              <BoneOffset x="103" y="109" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="-2" />
+              <BoneOffset x="108" y="153" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="-1" />
+              <BoneOffset x="128" y="155" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="5" />
+              <BoneOffset x="128" y="123" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="9" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="9" y="3" z="2" />
+              <BoneOffset x="127" y="127" z="113" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="6" />
+              <BoneOffset x="130" y="105" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="0" />
+              <BoneOffset x="127" y="127" z="112" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="2" z="2" />
+              <BoneOffset x="106" y="124" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="2" z="3" />
+              <BoneOffset x="108" y="101" z="142" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-2" z="-1" />
+              <BoneOffset x="127" y="109" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="1" z="1" />
+              <BoneOffset x="144" y="127" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="1" z="0" />
+              <BoneOffset x="142" y="129" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="2" z="1" />
+              <BoneOffset x="116" y="123" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-3" z="0" />
+              <BoneOffset x="127" y="127" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-1" z="6" />
+              <BoneOffset x="127" y="127" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-1" z="4" />
+              <BoneOffset x="127" y="127" z="99" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="-3" />
+              <BoneOffset x="127" y="131" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="-4" />
+              <BoneOffset x="127" y="127" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="-4" />
+              <BoneOffset x="127" y="135" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="1" z="2" />
+              <BoneOffset x="127" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-1" z="2" />
+              <BoneOffset x="127" y="127" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="3" z="-2" />
+              <BoneOffset x="127" y="127" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="0" z="1" />
+              <BoneOffset x="126" y="131" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="-1" />
+              <BoneOffset x="129" y="141" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="1" />
+              <BoneOffset x="124" y="152" z="112" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="-2" />
+              <BoneOffset x="127" y="136" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="-2" />
+              <BoneOffset x="127" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="0" />
+              <BoneOffset x="129" y="145" z="109" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="119" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="3" />
+              <BoneOffset x="137" y="119" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="2" />
+              <BoneOffset x="139" y="129" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-2" z="-2" />
+              <BoneOffset x="147" y="147" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="1" />
+              <BoneOffset x="128" y="126" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="4" z="0" />
+              <BoneOffset x="115" y="96" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-2" z="-1" />
+              <BoneOffset x="126" y="132" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="0" />
+              <BoneOffset x="134" y="128" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="4" z="1" />
+              <BoneOffset x="131" y="102" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="1" />
+              <BoneOffset x="126" y="128" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="6" />
+              <BoneOffset x="149" y="126" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="5" />
+              <BoneOffset x="151" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="4" />
+              <BoneOffset x="136" y="117" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="3" />
+              <BoneOffset x="132" y="144" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="2" />
+              <BoneOffset x="128" y="150" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-2" z="2" />
+              <BoneOffset x="126" y="138" z="110" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="1" />
+              <BoneOffset x="126" y="136" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="-1" />
+              <BoneOffset x="128" y="156" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-2" z="1" />
+              <BoneOffset x="128" y="140" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="-2" />
+              <BoneOffset x="127" y="156" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="0" />
+              <BoneOffset x="127" y="107" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-2" z="0" />
+              <BoneOffset x="127" y="125" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="4" />
+              <BoneOffset x="130" y="140" z="121" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="2" z="-3" />
+              <BoneOffset x="142" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="2" z="-2" />
+              <BoneOffset x="133" y="149" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-2" z="-1" />
+              <BoneOffset x="131" y="124" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="2" z="-1" />
+              <BoneOffset x="144" y="149" z="145" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="2" z="0" />
+              <BoneOffset x="159" y="159" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="10" y="3" z="3" />
+              <BoneOffset x="119" y="127" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="2" z="1" />
+              <BoneOffset x="120" y="125" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="4" />
+              <BoneOffset x="127" y="127" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="6" />
+              <BoneOffset x="127" y="127" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="0" z="1" />
+              <BoneOffset x="125" y="137" z="144" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="1" />
+              <BoneOffset x="127" y="123" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-2" z="-1" />
+              <BoneOffset x="128" y="120" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="-2" />
+              <BoneOffset x="127" y="95" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="0" />
+              <BoneOffset x="130" y="148" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="3" />
+              <BoneOffset x="129" y="122" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="0" z="2" />
+              <BoneOffset x="126" y="114" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="-4" />
+              <BoneOffset x="127" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="2" />
+              <BoneOffset x="124" y="117" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="1" z="2" />
+              <BoneOffset x="127" y="127" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="2" />
+              <BoneOffset x="127" y="127" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="8" />
+              <BoneOffset x="127" y="127" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="-1" />
+              <BoneOffset x="116" y="128" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="-2" />
+              <BoneOffset x="116" y="123" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-2" z="1" />
+              <BoneOffset x="118" y="131" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="9" y="2" z="3" />
+              <BoneOffset x="128" y="105" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="9" y="2" z="2" />
+              <BoneOffset x="131" y="109" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="3" z="0" />
+              <BoneOffset x="127" y="127" z="110" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="1" />
+              <BoneOffset x="128" y="129" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="-1" />
+              <BoneOffset x="127" y="146" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="1" />
+              <BoneOffset x="134" y="149" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="-2" />
+              <BoneOffset x="116" y="149" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="3" z="6" />
+              <BoneOffset x="127" y="127" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="2" />
+              <BoneOffset x="123" y="133" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="0" z="-4" />
+              <BoneOffset x="127" y="127" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="3" z="3" />
+              <BoneOffset x="123" y="129" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="3" z="2" />
+              <BoneOffset x="97" y="129" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="3" z="1" />
+              <BoneOffset x="123" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="2" z="1" />
+              <BoneOffset x="136" y="128" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="1" z="-1" />
+              <BoneOffset x="145" y="131" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-2" z="0" />
+              <BoneOffset x="122" y="112" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-2" z="1" />
+              <BoneOffset x="107" y="107" z="131" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-1" z="-4" />
+              <BoneOffset x="127" y="127" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-2" z="3" />
+              <BoneOffset x="119" y="97" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="-2" />
+              <BoneOffset x="127" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="-4" />
+              <BoneOffset x="127" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-2" z="2" />
+              <BoneOffset x="135" y="103" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-2" z="-1" />
+              <BoneOffset x="128" y="121" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="0" z="1" />
+              <BoneOffset x="125" y="118" z="111" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="0" z="0" />
+              <BoneOffset x="127" y="127" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="-2" />
+              <BoneOffset x="127" y="127" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="-2" z="5" />
+              <BoneOffset x="127" y="132" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="0" />
+              <BoneOffset x="151" y="138" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="2" z="1" />
+              <BoneOffset x="131" y="126" z="119" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="1" />
+              <BoneOffset x="127" y="137" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="4" />
+              <BoneOffset x="98" y="132" z="156" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="3" />
+              <BoneOffset x="121" y="127" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="2" />
+              <BoneOffset x="125" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="1" />
+              <BoneOffset x="131" y="127" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="-2" />
+              <BoneOffset x="127" y="127" z="115" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="1" z="-1" />
+              <BoneOffset x="111" y="130" z="96" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="1" />
+              <BoneOffset x="108" y="132" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="0" />
+              <BoneOffset x="150" y="125" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="3" />
+              <BoneOffset x="118" y="123" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-2" z="1" />
+              <BoneOffset x="127" y="133" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="1" />
+              <BoneOffset x="125" y="127" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="2" />
+              <BoneOffset x="109" y="128" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-2" z="2" />
+              <BoneOffset x="149" y="154" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="2" />
+              <BoneOffset x="131" y="121" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="5" />
+              <BoneOffset x="118" y="125" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="3" />
+              <BoneOffset x="126" y="106" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="4" />
+              <BoneOffset x="128" y="126" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="4" />
+              <BoneOffset x="118" y="112" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="5" />
+              <BoneOffset x="116" y="128" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="3" z="6" />
+              <BoneOffset x="118" y="126" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="-2" />
+              <BoneOffset x="127" y="127" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="-1" />
+              <BoneOffset x="129" y="137" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="0" z="0" />
+              <BoneOffset x="127" y="127" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="-2" />
+              <BoneOffset x="127" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="3" />
+              <BoneOffset x="124" y="106" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="2" />
+              <BoneOffset x="135" y="103" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="5" />
+              <BoneOffset x="126" y="132" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="7" />
+              <BoneOffset x="124" y="143" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="6" />
+              <BoneOffset x="126" y="143" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-1" z="2" />
+              <BoneOffset x="115" y="128" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="110" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="-2" />
+              <BoneOffset x="107" y="147" z="145" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-2" z="2" />
+              <BoneOffset x="149" y="105" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-1" z="1" />
+              <BoneOffset x="121" y="122" z="110" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="-1" />
+              <BoneOffset x="136" y="125" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-2" z="3" />
+              <BoneOffset x="134" y="114" z="156" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="-3" />
+              <BoneOffset x="112" y="118" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-2" z="5" />
+              <BoneOffset x="145" y="143" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="4" z="0" />
+              <BoneOffset x="156" y="130" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="4" z="1" />
+              <BoneOffset x="132" y="127" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="2" z="5" />
+              <BoneOffset x="126" y="101" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-1" z="-2" />
+              <BoneOffset x="127" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="3" z="0" />
+              <BoneOffset x="127" y="127" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="4" z="-1" />
+              <BoneOffset x="100" y="100" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="3" z="1" />
+              <BoneOffset x="143" y="129" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="0" z="8" />
+              <BoneOffset x="104" y="129" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-8" y="0" z="-1" />
+              <BoneOffset x="132" y="128" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-1" z="1" />
+              <BoneOffset x="115" y="126" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-1" z="0" />
+              <BoneOffset x="127" y="127" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="0" z="5" />
+              <BoneOffset x="104" y="123" z="114" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="0" z="6" />
+              <BoneOffset x="105" y="143" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="0" z="7" />
+              <BoneOffset x="97" y="121" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="113" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="1" z="-2" />
+              <BoneOffset x="127" y="127" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="3" z="0" />
+              <BoneOffset x="127" y="127" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="4" z="0" />
+              <BoneOffset x="127" y="127" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="3" z="2" />
+              <BoneOffset x="127" y="127" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="1" />
+              <BoneOffset x="121" y="127" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="1" />
+              <BoneOffset x="140" y="124" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="-1" />
+              <BoneOffset x="142" y="125" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="-2" />
+              <BoneOffset x="132" y="128" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="0" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="3" />
+              <BoneOffset x="112" y="127" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="3" />
+              <BoneOffset x="122" y="131" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="-3" />
+              <BoneOffset x="132" y="121" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="2" z="1" />
+              <BoneOffset x="135" y="138" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="2" />
+              <BoneOffset x="124" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="2" />
+              <BoneOffset x="144" y="121" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="-4" />
+              <BoneOffset x="146" y="131" z="142" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="2" z="2" />
+              <BoneOffset x="150" y="111" z="141" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="2" />
+              <BoneOffset x="157" y="104" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="3" />
+              <BoneOffset x="145" y="119" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="4" />
+              <BoneOffset x="135" y="122" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="5" />
+              <BoneOffset x="124" y="144" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="6" />
+              <BoneOffset x="101" y="139" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="7" />
+              <BoneOffset x="125" y="152" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="4" z="4" />
+              <BoneOffset x="108" y="99" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="4" z="3" />
+              <BoneOffset x="114" y="105" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="4" z="2" />
+              <BoneOffset x="134" y="96" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="4" z="-2" />
+              <BoneOffset x="122" y="99" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="4" z="-1" />
+              <BoneOffset x="101" y="116" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="4" z="1" />
+              <BoneOffset x="127" y="106" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="6" />
+              <BoneOffset x="103" y="103" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="7" />
+              <BoneOffset x="115" y="138" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="5" />
+              <BoneOffset x="113" y="126" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="4" />
+              <BoneOffset x="112" y="131" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="5" />
+              <BoneOffset x="101" y="115" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="0" z="-1" />
+              <BoneOffset x="109" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-1" z="1" />
+              <BoneOffset x="129" y="126" z="156" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="1" />
+              <BoneOffset x="115" y="126" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="0" />
+              <BoneOffset x="133" y="133" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="0" />
+              <BoneOffset x="142" y="127" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="1" />
+              <BoneOffset x="142" y="117" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="3" />
+              <BoneOffset x="117" y="126" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="3" z="2" />
+              <BoneOffset x="111" y="125" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="-1" z="2" />
+              <BoneOffset x="120" y="124" z="111" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="8" />
+              <BoneOffset x="126" y="136" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="2" z="3" />
+              <BoneOffset x="129" y="119" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="2" z="2" />
+              <BoneOffset x="128" y="117" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="1" z="-2" />
+              <BoneOffset x="127" y="127" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="2" z="1" />
+              <BoneOffset x="129" y="131" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="-2" />
+              <BoneOffset x="127" y="159" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="1" z="-4" />
+              <BoneOffset x="127" y="127" z="111" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="4" z="4" />
+              <BoneOffset x="125" y="116" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="4" z="0" />
+              <BoneOffset x="127" y="127" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="4" z="3" />
+              <BoneOffset x="128" y="113" z="119" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="6" />
+              <BoneOffset x="146" y="128" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="-4" />
+              <BoneOffset x="158" y="96" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="5" />
+              <BoneOffset x="153" y="123" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="-3" />
+              <BoneOffset x="159" y="95" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="4" />
+              <BoneOffset x="139" y="123" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="-2" />
+              <BoneOffset x="159" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="3" />
+              <BoneOffset x="138" y="124" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="-3" />
+              <BoneOffset x="96" y="128" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="-4" />
+              <BoneOffset x="121" y="129" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="2" />
+              <BoneOffset x="135" y="124" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-2" z="2" />
+              <BoneOffset x="108" y="108" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="2" z="-2" />
+              <BoneOffset x="124" y="137" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="-1" />
+              <BoneOffset x="106" y="130" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="1" />
+              <BoneOffset x="129" y="126" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="2" z="-1" />
+              <BoneOffset x="98" y="118" z="96" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="-2" />
+              <BoneOffset x="111" y="125" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="0" />
+              <BoneOffset x="118" y="117" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="2" z="-3" />
+              <BoneOffset x="111" y="133" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="4" z="2" />
+              <BoneOffset x="129" y="108" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="4" z="1" />
+              <BoneOffset x="131" y="109" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="4" z="-1" />
+              <BoneOffset x="125" y="100" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="4" z="-2" />
+              <BoneOffset x="127" y="124" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="3" />
+              <BoneOffset x="129" y="135" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="2" />
+              <BoneOffset x="127" y="118" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="4" />
+              <BoneOffset x="127" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="1" z="1" />
+              <BoneOffset x="109" y="131" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="1" z="0" />
+              <BoneOffset x="106" y="131" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="0" />
+              <BoneOffset x="142" y="97" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="1" />
+              <BoneOffset x="108" y="125" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="4" />
+              <BoneOffset x="127" y="127" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="6" />
+              <BoneOffset x="127" y="127" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="2" z="1" />
+              <BoneOffset x="127" y="125" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="2" z="0" />
+              <BoneOffset x="129" y="153" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="0" />
+              <BoneOffset x="127" y="127" z="96" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-3" z="0" />
+              <BoneOffset x="127" y="127" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-3" y="-3" z="2" />
+              <BoneOffset x="127" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="8" />
+              <BoneOffset x="127" y="127" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="5" />
+              <BoneOffset x="128" y="119" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="4" />
+              <BoneOffset x="116" y="127" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="-2" />
+              <BoneOffset x="125" y="103" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="7" />
+              <BoneOffset x="133" y="132" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="-1" />
+              <BoneOffset x="132" y="108" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="6" />
+              <BoneOffset x="95" y="128" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="-4" />
+              <BoneOffset x="107" y="133" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="3" z="1" />
+              <BoneOffset x="142" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="-1" />
+              <BoneOffset x="132" y="130" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="0" z="1" />
+              <BoneOffset x="132" y="117" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="-3" />
+              <BoneOffset x="126" y="130" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="-2" />
+              <BoneOffset x="138" y="130" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="-3" />
+              <BoneOffset x="134" y="126" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="3" />
+              <BoneOffset x="134" y="120" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="3" z="2" />
+              <BoneOffset x="153" y="133" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="-4" />
+              <BoneOffset x="128" y="126" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="2" />
+              <BoneOffset x="140" y="124" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="4" z="1" />
+              <BoneOffset x="125" y="105" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="4" z="2" />
+              <BoneOffset x="124" y="108" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="4" z="1" />
+              <BoneOffset x="129" y="106" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="4" z="0" />
+              <BoneOffset x="128" y="115" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="2" />
+              <BoneOffset x="128" y="135" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="1" />
+              <BoneOffset x="139" y="125" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="0" />
+              <BoneOffset x="149" y="135" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="0" />
+              <BoneOffset x="136" y="118" z="118" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="1" />
+              <BoneOffset x="125" y="132" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="-2" />
+              <BoneOffset x="127" y="127" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="2" z="-3" />
+              <BoneOffset x="128" y="137" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="2" z="2" />
+              <BoneOffset x="113" y="144" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-7" y="2" z="1" />
+              <BoneOffset x="128" y="138" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="2" z="-1" />
+              <BoneOffset x="127" y="121" z="158" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="2" z="-2" />
+              <BoneOffset x="129" y="139" z="141" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="8" />
+              <BoneOffset x="116" y="127" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="-4" />
+              <BoneOffset x="106" y="135" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="-3" />
+              <BoneOffset x="104" y="125" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="-2" />
+              <BoneOffset x="122" y="103" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="3" />
+              <BoneOffset x="102" y="128" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="1" z="-3" />
+              <BoneOffset x="103" y="121" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="-1" />
+              <BoneOffset x="112" y="99" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="1" z="-1" />
+              <BoneOffset x="100" y="136" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="1" z="-2" />
+              <BoneOffset x="108" y="120" z="135" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="0" z="1" />
+              <BoneOffset x="126" y="117" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="7" />
+              <BoneOffset x="114" y="130" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="6" />
+              <BoneOffset x="106" y="131" z="158" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="5" />
+              <BoneOffset x="111" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="-1" z="4" />
+              <BoneOffset x="114" y="129" z="116" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="4" z="1" />
+              <BoneOffset x="127" y="121" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="4" z="0" />
+              <BoneOffset x="130" y="107" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="2" z="0" />
+              <BoneOffset x="135" y="127" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="1" />
+              <BoneOffset x="116" y="126" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="-1" />
+              <BoneOffset x="98" y="125" z="111" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="2" z="1" />
+              <BoneOffset x="124" y="113" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="0" />
+              <BoneOffset x="120" y="127" z="136" />
+            </BoneInfo>
+          </Skeleton>
+          <XMirroxPlane x="0" y="0" z="0" />
+          <DisplayName>(NPC-SY) Monarch</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <CreatePhysics>false</CreatePhysics>
+          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+          <GridPresenceTier>Tier1</GridPresenceTier>
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

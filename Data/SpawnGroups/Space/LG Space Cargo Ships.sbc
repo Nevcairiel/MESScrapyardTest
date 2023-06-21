@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>NPC-SY-LG-SpaceCargoShips</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[LunarCargoShip:true]			
+			[FactionOwner:SCRAP]
+			[ReplenishSystems:true]			
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]			
+		    [ReduceBlockBuildStates:true]
+			[MinimumBlocksPercent:15]
+			[MaximumBlocksPercent:25]
+			[MinimumBuildPercent:10]
+			[MaximumBuildPercent:30]	
+			[PrefabSpawningMode:Random]
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-SY) The Guppy 02">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-SY) THI-842-S Prison Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) Automated Division Light Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) WKX-LG Wasp 02">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) Cyclops Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) SIC-01 Murakoz">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) Automated Division Heavy Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) SCH Moondancer MKI">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) The Grub">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) WHI - Cargo Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) JXS Valle Crucis">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+				<Prefab SubtypeId="(NPC-SY) ACM Donzella">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>5</Speed>
+					<Behaviour>NPC-SY-LG-Ship-Behavior</Behaviour>
+				</Prefab>	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->				
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>
