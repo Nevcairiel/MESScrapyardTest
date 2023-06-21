@@ -63,6 +63,7 @@
       [Actions:(NPC-SY)SpawnBillboard-Action]
       [Actions:(NPC-SY)SpawnHangar-Action]
       [Actions:(NPC-SY)SpawnHighway-Action]
+      [Actions:(NPC-SY)SpawnIndustrial-Action]
       [Actions:(NPC-SY)SpawnOffice-Action]
       [Actions:(NPC-SY)SpawnPipeline-Action]
       [Actions:(NPC-SY)SpawnPlanes-Action]
@@ -71,16 +72,12 @@
       [Actions:(NPC-SY)SpawnSilo-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv-Action]
       [Actions:(NPC-SY)SpawnVehicleMil-Action]
+      [Actions:(NPC-SY)SpawnWarehouse-Action]
       [Actions:(NPC-SY)SpawnWatchTower-Action]
       [Actions:(NPC-SY)SpawnWaterTower-Action]
       [Actions:(NPC-SY)SpawnWindTower-Action]
 
-      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
-      [Actions:(NPC-SY)SpawnVehicleCiv-Action]    
-      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
-      [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
-      [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
       [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
 
       </Description>
@@ -134,6 +131,31 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnIndustrial-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)WarehouseSecondary-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Dumpster-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
       <Id>
           <TypeId>Inventory</TypeId>
@@ -151,6 +173,7 @@
       [Spawner:(NPC-SY)TowerCrane-Spawner]
       [Spawner:(NPC-SY)Dumpster-Spawner]
       [Spawner:(NPC-SY)Excavator-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -170,6 +193,7 @@
       [Spawner:(NPC-SY)Pipeline-Spawner]
       [Spawner:(NPC-SY)Pipeline-Spawner]
       [Spawner:(NPC-SY)PipelineB-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -204,6 +228,8 @@
       [Spawner:(NPC-SY)Powerline-Spawner]
       [Spawner:(NPC-SY)Powerline-Spawner]
       [Spawner:(NPC-SY)Powerline-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
+      [Spawner:(NPC-SY)VehiclePlaneCore-Spawner]
 
       </Description>
       
@@ -243,6 +269,7 @@
       [Spawner:(NPC-SY)Fence-Spawner]
       [Spawner:(NPC-SY)Fence-Spawner]
       [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
 
       </Description>
       
@@ -312,6 +339,24 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnWarehouse-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Warehouse-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Industrial-Spawner]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -371,24 +416,6 @@
       </Description>
       
     </EntityComponent>
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
 
 
 

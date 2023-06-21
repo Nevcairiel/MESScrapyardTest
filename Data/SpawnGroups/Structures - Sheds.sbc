@@ -4,7 +4,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #01</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Wide #01</SubtypeId>
 	</Id>
 	<Description>
 
@@ -19,67 +19,7 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #01">
-			<Position>
-				<X>0.0</X>
-				<Y>-0.5</Y>
-				<Z>0.0</Z>
-			</Position>
-			<Speed>0</Speed>
-			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
-		</Prefab>
-	</Prefabs>
-</SpawnGroup>
-
-<SpawnGroup> 
-	<Id>
-		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #02</SubtypeId>
-	</Id>
-	<Description>
-
-	[Modular Encounters SpawnGroup]
-
-	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
-	
-	[ManipulationProfiles:(NPC-SY)SimpleScrap]
-
-	</Description>
-	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
-	<IsPirate>true</IsPirate>
-	<Frequency>2.0</Frequency>
-	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #02">
-			<Position>
-				<X>0.0</X>
-				<Y>0.5</Y>
-				<Z>0.0</Z>
-			</Position>
-			<Speed>0</Speed>
-			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
-		</Prefab>
-	</Prefabs>
-</SpawnGroup>
-
-<SpawnGroup> 
-	<Id>
-		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #03</SubtypeId>
-	</Id>
-	<Description>
-
-	[Modular Encounters SpawnGroup]
-
-	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
-	
-	[ManipulationProfiles:(NPC-SY)SimpleScrap]
-
-	</Description>
-	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
-	<IsPirate>true</IsPirate>
-	<Frequency>2.0</Frequency>
-	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #03">
+		<Prefab SubtypeId="(NPC-SY) Shed Wide #01">
 			<Position>
 				<X>0.0</X>
 				<Y>1.5</Y>
@@ -94,7 +34,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #04</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Wide #02</SubtypeId>
 	</Id>
 	<Description>
 
@@ -109,10 +49,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #04">
+		<Prefab SubtypeId="(NPC-SY) Shed Wide #02">
 			<Position>
 				<X>0.0</X>
-				<Y>0.5</Y>
+				<Y>1.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -124,7 +64,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #05</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Wide #03</SubtypeId>
 	</Id>
 	<Description>
 
@@ -139,10 +79,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #05">
+		<Prefab SubtypeId="(NPC-SY) Shed Wide #03">
 			<Position>
 				<X>0.0</X>
-				<Y>0.5</Y>
+				<Y>1.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -154,7 +94,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #06</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Wide #04</SubtypeId>
 	</Id>
 	<Description>
 
@@ -169,10 +109,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #06">
+		<Prefab SubtypeId="(NPC-SY) Shed Wide #04">
 			<Position>
 				<X>0.0</X>
-				<Y>0.5</Y>
+				<Y>4.2</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -184,7 +124,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22 #07</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #01</SubtypeId>
 	</Id>
 	<Description>
 
@@ -199,10 +139,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22 #07">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #01">
 			<Position>
 				<X>0.0</X>
-				<Y>0.5</Y>
+				<Y>-8.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -214,7 +154,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22b #01</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #02</SubtypeId>
 	</Id>
 	<Description>
 
@@ -229,10 +169,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22b #01">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #02">
 			<Position>
 				<X>0.0</X>
-				<Y>2.0</Y>
+				<Y>-8.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -244,7 +184,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22b #02</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #03</SubtypeId>
 	</Id>
 	<Description>
 
@@ -259,10 +199,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22b #02">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #03">
 			<Position>
 				<X>0.0</X>
-				<Y>2.3</Y>
+				<Y>-8.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -274,7 +214,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22b #03</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #04</SubtypeId>
 	</Id>
 	<Description>
 
@@ -289,10 +229,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22b #03">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #04">
 			<Position>
 				<X>0.0</X>
-				<Y>1.6</Y>
+				<Y>-8.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -304,7 +244,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 22b #04</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #05</SubtypeId>
 	</Id>
 	<Description>
 
@@ -319,10 +259,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 22b #04">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #05">
 			<Position>
 				<X>0.0</X>
-				<Y>-2.5</Y>
+				<Y>-8.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -334,7 +274,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 45 #01</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #06</SubtypeId>
 	</Id>
 	<Description>
 
@@ -349,10 +289,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 45 #01">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #06">
 			<Position>
 				<X>0.0</X>
-				<Y>0.5</Y>
+				<Y>5.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -364,7 +304,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 45 #02</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #07</SubtypeId>
 	</Id>
 	<Description>
 
@@ -379,10 +319,10 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 45 #02">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #07">
 			<Position>
 				<X>0.0</X>
-				<Y>-1.0</Y>
+				<Y>5.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
@@ -394,7 +334,7 @@
 <SpawnGroup> 
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId> 
-		<SubtypeId>(NPC-SY) Shed 45 #03</SubtypeId>
+		<SubtypeId>(NPC-SY) Shed Long #08</SubtypeId>
 	</Id>
 	<Description>
 
@@ -409,10 +349,160 @@
 	<IsPirate>true</IsPirate>
 	<Frequency>2.0</Frequency>
 	<Prefabs>
-		<Prefab SubtypeId="(NPC-SY) Shed 45 #03">
+		<Prefab SubtypeId="(NPC-SY) Shed Long #08">
 			<Position>
 				<X>0.0</X>
-				<Y>-0.5</Y>
+				<Y>5.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Shed Long #09</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Shed Long #09">
+			<Position>
+				<X>0.0</X>
+				<Y>5.3</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Shed Small #01</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Shed Small #01">
+			<Position>
+				<X>0.0</X>
+				<Y>-3.5</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Shed Small #02</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Shed Small #02">
+			<Position>
+				<X>0.0</X>
+				<Y>-3.5</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Shed Small #03</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Shed Small #03">
+			<Position>
+				<X>0.0</X>
+				<Y>-3.5</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>0</Speed>
+			<Behaviour>(NPC-SY)SimpleBehavior</Behaviour>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup> 
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId> 
+		<SubtypeId>(NPC-SY) Shed Small #04</SubtypeId>
+	</Id>
+	<Description>
+
+	[Modular Encounters SpawnGroup]
+
+	[SpawnConditionsProfiles:(NPC-SY)SecondaryLargeGrid]
+	
+	[ManipulationProfiles:(NPC-SY)SimpleScrap]
+
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>  
+	<IsPirate>true</IsPirate>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-SY) Shed Small #04">
+			<Position>
+				<X>0.0</X>
+				<Y>-3.5</Y>
 				<Z>0.0</Z>
 			</Position>
 			<Speed>0</Speed>
