@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SimpleBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+	  
+      </Description>
+
+    </EntityComponent>
+	
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ClusterCoreBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+
+      
+      [Triggers:(NPC-SY)SpawnCluster-Trigger]
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+      
+	  
+      </Description>
+      
+    </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HangarBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+
+      
+      [Triggers:(NPC-SY)HangarInternalVehicle-Trigger]
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+      
+	  
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HighwayBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      
+      [Triggers:(NPC-SY)HighwayInternalVehicle-Trigger]
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+      
+	  
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      
+      [Triggers:(NPC-SY)ServiceStationInternalVehicle-Trigger]
+      [Triggers:(NPC-SY)ServiceStationDumpster-Trigger]
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+      
+	  
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)DummyBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+
+      
+      [Triggers:(NPC-SY)RemoveBlocks-Trigger]
+      
+	  
+      </Description>
+      
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

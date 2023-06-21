@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+<!-- Block Removal -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)RemoveBlocks-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:10000]
+      [MaxCooldownMs:12000]
+      [Actions:(NPC-SY)RemoveBlocks-Action]
+      
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)RemoveBlocks-Trigger -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)RemoveBlocks-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [RazeBlocksWithNames:true]
+      [RazeBlocksNames:DeleteThisBlock]
+      [RazeBlocksOfType:true]
+      [RazeBlocksTypes:MyObjectBuilder_RemoteControl/RivalAIRemoteControlLarge]
+      [RazeBlocksTypes:MyObjectBuilder_RemoteControl/RivalAIRemoteControlSmall]
+
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)RemoveControlBlock-Action -->
+
+   
+	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnCluster-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MaxActions:1]
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:3000]
+      [ActionExecution:Random]
+
+      [Actions:(NPC-SY)SpawnBillboard-Action]
+      [Actions:(NPC-SY)SpawnHangar-Action]
+      [Actions:(NPC-SY)SpawnHighway-Action]
+      [Actions:(NPC-SY)SpawnOffice-Action]
+      [Actions:(NPC-SY)SpawnPipeline-Action]
+      [Actions:(NPC-SY)SpawnPlanes-Action]
+      [Actions:(NPC-SY)SpawnPowerline-Action]
+      [Actions:(NPC-SY)SpawnServiceStation-Action]
+      [Actions:(NPC-SY)SpawnSilo-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
+      [Actions:(NPC-SY)SpawnVehicleMil-Action]
+      [Actions:(NPC-SY)SpawnWatchTower-Action]
+      [Actions:(NPC-SY)SpawnWaterTower-Action]
+      [Actions:(NPC-SY)SpawnWindTower-Action]
+
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]    
+      [Actions:(NPC-SY)SpawnVehicleCiv-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv2-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
+      [Actions:(NPC-SY)SpawnVehicleCiv3-Action]
+
+      </Description>
+      
+    </EntityComponent> 
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnBillboard-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Billboard-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnHangar-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Hangar-Spawner]
+      [Spawner:(NPC-SY)VehiclePlaneSecondary-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnHighway-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Highway-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnOffice-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Office-Spawner]
+      [Spawner:(NPC-SY)Office-Spawner]
+      [Spawner:(NPC-SY)Office-Spawner]
+      [Spawner:(NPC-SY)Office-Spawner]
+      [Spawner:(NPC-SY)Office-Spawner]
+      [Spawner:(NPC-SY)TowerCrane-Spawner]
+      [Spawner:(NPC-SY)Dumpster-Spawner]
+      [Spawner:(NPC-SY)Excavator-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnPipeline-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Pipeline-Spawner]
+      [Spawner:(NPC-SY)Pipeline-Spawner]
+      [Spawner:(NPC-SY)PipelineB-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnPlanes-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)VehiclePlaneCore-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnPowerline-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+      [Spawner:(NPC-SY)Powerline-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnServiceStation-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Service Station-Spawner]
+      [Spawner:(NPC-SY)ShedSecondary-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnSilo-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)Silo-Spawner]
+      [Spawner:(NPC-SY)Farm-Spawner]
+      [Spawner:(NPC-SY)WindTower-Spawner]
+      [Spawner:(NPC-SY)ShedSecondary-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnVehicleCiv-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)VehicleCivCore-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnVehicleCiv2-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)VehicleCivCore-Spawner]
+      [Spawner:(NPC-SY)VehicleCivRare-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnVehicleCiv3-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)VehicleCivCore-Spawner]
+      [Spawner:(NPC-SY)VehicleCivSecondary-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnVehicleMil-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)VehicleMilCore-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnWatchTower-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)WatchTower-Spawner]
+      [Spawner:(NPC-SY)Outhouse-Spawner]
+      [Spawner:(NPC-SY)ShedSecondary-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnWaterTower-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)WaterTower-Spawner]
+      [Spawner:(NPC-SY)ShedSecondary-Spawner]
+      [Spawner:(NPC-SY)Farm-Spawner]
+      [Spawner:(NPC-SY)Farm-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+
+      </Description>
+      
+    </EntityComponent> 
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)SpawnWindTower-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)WindTower-Spawner]
+      [Spawner:(NPC-SY)ShedSecondary-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+      [Spawner:(NPC-SY)Fence-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HangarInternalVehicle-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:2000]
+      [MaxCooldownMs:3000]
+      [MaxActions:1]
+      [Actions:(NPC-SY)HangarInternalVehicle-Action]
+      
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)SpawnInternalVehicle-Trigger -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HangarInternalVehicle-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)HangarInternalVehicle-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HighwayInternalVehicle-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:2000]
+      [MaxCooldownMs:3000]
+      [MaxActions:1]
+      [Actions:(NPC-SY)HighwayInternalVehicle-Action]
+      
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)SpawnInternalVehicle-Trigger -->
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HighwayInternalVehicle-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)HighwayInternalVehicle-Spawner]
+      [Spawner:(NPC-SY)CloseVehicleSecondary-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationInternalVehicle-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:2000]
+      [MaxCooldownMs:3000]
+      [MaxActions:1]
+      [Actions:(NPC-SY)ServiceStationInternalVehicle-Action]
+      
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)SpawnInternalVehicle-Trigger -->
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationInternalVehicle-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)ServiceStationInternalVehicle-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationDumpster-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:2000]
+      [MaxCooldownMs:3000]
+      [MaxActions:1]
+      [Actions:(NPC-SY)ServiceStationDumpster-Action]
+      
+      </Description>
+      
+    </EntityComponent> <!-- (NPC-SY)SpawnInternalVehicle-Trigger -->
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationDumpster-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:(NPC-SY)ServiceStationDumpster-Spawner]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+
+
+
+
+  </EntityComponents>
+</Definitions>

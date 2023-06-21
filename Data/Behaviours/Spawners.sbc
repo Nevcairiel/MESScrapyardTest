@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--    ****    Spawner Profiles     ****    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Farm-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+	      [SpawnGroups:(NPC-SY) Farm Crush]
+	      [SpawnGroups:(NPC-SY) Feed Trough]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:15]
+        [MaxDistance:100]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Fence-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Fence #01]
+        [SpawnGroups:(NPC-SY) Fence #02]
+        [SpawnGroups:(NPC-SY) Fence #03]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:25]
+        [MaxDistance:100]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)WaterTower-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Water Tower #01]
+        [SpawnGroups:(NPC-SY) Water Tower #02]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:25]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Silo-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Silo #01]
+        [SpawnGroups:(NPC-SY) Silo #02]
+        [SpawnGroups:(NPC-SY) Silo #03]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:25]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)WindTower-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Wind Turbine #01]
+        [SpawnGroups:(NPC-SY) Wind Turbine #02]
+        [SpawnGroups:(NPC-SY) Wind Turbine #03]
+        [SpawnGroups:(NPC-SY) Windmill #01]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:25]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Pipeline-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Pipe #01]
+        [SpawnGroups:(NPC-SY) Pipe #02]
+        [SpawnGroups:(NPC-SY) Pipe #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:250]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)PipelineB-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Pipe B #01]
+        [SpawnGroups:(NPC-SY) Pipe B #02]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:80]
+        [MaxDistance:350]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Billboard-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Billboard #01]
+        [SpawnGroups:(NPC-SY) Billboard #02]
+        [SpawnGroups:(NPC-SY) Billboard #03]
+        [SpawnGroups:(NPC-SY) Billboard #04]
+        [SpawnGroups:(NPC-SY) Billboard #05]
+      
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:25]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)WatchTower-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Watchtower #01]
+        [SpawnGroups:(NPC-SY) Watchtower #02]
+        [SpawnGroups:(NPC-SY) Watchtower #03]
+        [SpawnGroups:(NPC-SY) Watchtower #04]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:6]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Outhouse-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Outhouse #01]
+        [SpawnGroups:(NPC-SY) Outhouse #02]
+        [SpawnGroups:(NPC-SY) Outhouse #03]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:21]
+        [MaxDistance:22]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ShedCore-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Shed 22 #01]
+        [SpawnGroups:(NPC-SY) Shed 22 #02]
+        [SpawnGroups:(NPC-SY) Shed 22 #03]
+        [SpawnGroups:(NPC-SY) Shed 22 #04]
+        [SpawnGroups:(NPC-SY) Shed 22 #05]
+        [SpawnGroups:(NPC-SY) Shed 22 #06]
+        [SpawnGroups:(NPC-SY) Shed 22 #07]
+        [SpawnGroups:(NPC-SY) Shed 22b #01]
+        [SpawnGroups:(NPC-SY) Shed 22b #02]
+        [SpawnGroups:(NPC-SY) Shed 22b #03]
+        [SpawnGroups:(NPC-SY) Shed 22b #04]
+        [SpawnGroups:(NPC-SY) Shed 45 #01]
+        [SpawnGroups:(NPC-SY) Shed 45 #02]
+        [SpawnGroups:(NPC-SY) Shed 45 #03]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ShedSecondary-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Shed 22 #01]
+        [SpawnGroups:(NPC-SY) Shed 22 #02]
+        [SpawnGroups:(NPC-SY) Shed 22 #03]
+        [SpawnGroups:(NPC-SY) Shed 22 #04]
+        [SpawnGroups:(NPC-SY) Shed 22 #05]
+        [SpawnGroups:(NPC-SY) Shed 22 #06]
+        [SpawnGroups:(NPC-SY) Shed 22 #07]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Shed 22b #01]
+        [SpawnGroups:(NPC-SY) Shed 22b #02]
+        [SpawnGroups:(NPC-SY) Shed 22b #03]
+        [SpawnGroups:(NPC-SY) Shed 22b #04]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Shed 45 #01]
+        [SpawnGroups:(NPC-SY) Shed 45 #02]
+        [SpawnGroups:(NPC-SY) Shed 45 #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:35]
+        [MaxDistance:40]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)VehicleCivCore-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #03]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        [SpawnGroups:(NPC-SY) Flatliner #01]
+        [SpawnGroups:(NPC-SY) Flatliner #02]
+        [SpawnGroups:(NPC-SY) Flatliner #03]
+        [SpawnGroups:(NPC-SY) Flatliner #04]
+        [SpawnGroups:(NPC-SY) Flatliner #05]
+        [SpawnGroups:(NPC-SY) Flatliner #06]
+        [SpawnGroups:(NPC-SY) Flatliner #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)VehicleCivSecondary-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Flatliner #01]
+        [SpawnGroups:(NPC-SY) Flatliner #02]
+        [SpawnGroups:(NPC-SY) Flatliner #03]
+        [SpawnGroups:(NPC-SY) Flatliner #04]
+        [SpawnGroups:(NPC-SY) Flatliner #05]
+        [SpawnGroups:(NPC-SY) Flatliner #06]
+        [SpawnGroups:(NPC-SY) Flatliner #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)VehicleCivRare-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        [SpawnGroups:(NPC-SY) Dummy Grid x100]
+        [SpawnGroups:(NPC-SY) Flatliner #01]
+        [SpawnGroups:(NPC-SY) Flatliner #02]
+        [SpawnGroups:(NPC-SY) Flatliner #03]
+        [SpawnGroups:(NPC-SY) Flatliner #04]
+        [SpawnGroups:(NPC-SY) Flatliner #05]
+        [SpawnGroups:(NPC-SY) Flatliner #06]
+        [SpawnGroups:(NPC-SY) Flatliner #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)CloseVehicleSecondary-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #03]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        [SpawnGroups:(NPC-SY) Flatliner #01]
+        [SpawnGroups:(NPC-SY) Flatliner #02]
+        [SpawnGroups:(NPC-SY) Flatliner #03]
+        [SpawnGroups:(NPC-SY) Flatliner #04]
+        [SpawnGroups:(NPC-SY) Flatliner #05]
+        [SpawnGroups:(NPC-SY) Flatliner #06]
+        [SpawnGroups:(NPC-SY) Flatliner #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:7]
+        [MaxDistance:7]
+        [MinAltitude:11]
+        [MaxAltitude:12]
+        [IgnoreSafetyChecks:true]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)VehicleMilCore-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Beetle #01]
+        [SpawnGroups:(NPC-SY) Locust Recon Buggy #01]
+        [SpawnGroups:(NPC-SY) Locust Recon Buggy #02]
+        [SpawnGroups:(NPC-SY) M8 Collie Pickup #01]
+        [SpawnGroups:(NPC-SY) M8 Collie Pickup #02]
+        [SpawnGroups:(NPC-SY) M8 Collie Pickup #03]
+        [SpawnGroups:(NPC-SY) Scav #01]
+        [SpawnGroups:(NPC-SY) Flatliner #01]
+        [SpawnGroups:(NPC-SY) Flatliner #02]
+        [SpawnGroups:(NPC-SY) Flatliner #03]
+        [SpawnGroups:(NPC-SY) Flatliner #04]
+        [SpawnGroups:(NPC-SY) Flatliner #05]
+        [SpawnGroups:(NPC-SY) Flatliner #06]
+        [SpawnGroups:(NPC-SY) Flatliner #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)VehiclePlaneCore-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Danger's Own #01]
+        [SpawnGroups:(NPC-SY) Danger's Own #02]
+        [SpawnGroups:(NPC-SY) FlyBy Knight #01]
+        [SpawnGroups:(NPC-SY) FlyBy Knight #02]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:5]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Hangar-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Hangar #01]
+        [SpawnGroups:(NPC-SY) Hangar #02]
+        [SpawnGroups:(NPC-SY) Hangar #03]
+        [SpawnGroups:(NPC-SY) Hangar #04]
+        [SpawnGroups:(NPC-SY) Hangar #05]
+        [SpawnGroups:(NPC-SY) Hangar #06]
+        [SpawnGroups:(NPC-SY) Hangar #07]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:21]
+        [MaxDistance:22]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Highway-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Highway #01]
+        [SpawnGroups:(NPC-SY) Highway #02]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:21]
+        [MaxDistance:22]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Powerline-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) High Tension #01]
+        [SpawnGroups:(NPC-SY) High Tension #02]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:21]
+        [MaxDistance:400]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Dumpster-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Dumpster #01]
+        [SpawnGroups:(NPC-SY) Dumpster #02]
+        [SpawnGroups:(NPC-SY) Dumpster #03]
+        [SpawnGroups:(NPC-SY) Dumpster #04]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:31]
+        [MaxDistance:35]
+        [MinAltitude:2]
+        [MaxAltitude:2]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Service Station-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Service Station #01]
+        [SpawnGroups:(NPC-SY) Service Station #02]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:1]
+        [MaxDistance:10]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Office-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Office #01]
+        [SpawnGroups:(NPC-SY) Office #02]
+        [SpawnGroups:(NPC-SY) Office #03]
+        [SpawnGroups:(NPC-SY) Office #04]
+        [SpawnGroups:(NPC-SY) Office #05]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:25]
+        [MaxDistance:100]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)TowerCrane-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Tower Crane #01]
+        [SpawnGroups:(NPC-SY) Tower Crane #02]
+        [SpawnGroups:(NPC-SY) Tower Crane #03]
+        [SpawnGroups:(NPC-SY) Tower Crane #04]
+        [SpawnGroups:(NPC-SY) Tower Crane #05]
+        [SpawnGroups:(NPC-SY) Tower Crane #06]
+        [SpawnGroups:(NPC-SY) Tower Crane #07]
+        [SpawnGroups:(NPC-SY) Tower Crane #08]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:25]
+        [MaxDistance:100]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)Excavator-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Excavator #01]
+        [SpawnGroups:(NPC-SY) Excavator #02]
+        [SpawnGroups:(NPC-SY) Excavator #03]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        [SpawnGroups:(NPC-SY) Dummy Grid]
+        
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:15]
+        [MaxDistance:22]
+        [MinAltitude:0]
+        [MaxAltitude:1]
+        [IgnoreSafetyChecks:false]
+        
+      </Description> 
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+<!-- Specific Offset Spawns-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HangarInternalVehicle-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:0 Y:3 Z:5}]
+        [IgnoreSafetyChecks:true]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)HighwayInternalVehicle-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:0 Y:8 Z:0}]
+        [IgnoreSafetyChecks:true]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationInternalVehicle-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+      
+        [SpawnGroups:(NPC-SY) Red Jalopy #01]
+        [SpawnGroups:(NPC-SY) Red Jalopy #02]
+        [SpawnGroups:(NPC-SY) Red Jalopy #03]
+        [SpawnGroups:(NPC-SY) Red Jalopy #04]
+        [SpawnGroups:(NPC-SY) Rust and Ready #01]
+        [SpawnGroups:(NPC-SY) Rust and Ready #02]
+        [SpawnGroups:(NPC-SY) Rust and Ready #03]
+        [SpawnGroups:(NPC-SY) Rust and Ready #04]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #01]
+        [SpawnGroups:(NPC-SY) Antonio Vanderas #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #01]
+        [SpawnGroups:(NPC-SY) KCLang Truck #02]
+        [SpawnGroups:(NPC-SY) KCLang Truck #03]
+        [SpawnGroups:(NPC-SY) Rush Jeep #01]
+        [SpawnGroups:(NPC-SY) Skuda #01]
+        [SpawnGroups:(NPC-SY) Skuda #02]
+        [SpawnGroups:(NPC-SY) Skuda #03]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #01]
+        [SpawnGroups:(NPC-SY) Tom Cruiser #02]
+        
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:10 Y:4 Z:10}]
+        [IgnoreSafetyChecks:true]
+        
+      </Description> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> <!-- ACS-BaseSpawnerDrone-IonEasy -->
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)ServiceStationDumpster-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+      
+        [UseSpawn:true]
+        [StartsReady:true]
+        
+        [SpawnGroups:(NPC-SY) Dumpster #01]
+        [SpawnGroups:(NPC-SY) Dumpster #02]
+        [SpawnGroups:(NPC-SY) Dumpster #03]
+        [SpawnGroups:(NPC-SY) Dumpster #04]
+        
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:-2 Y:3 Z:0}]
+        [IgnoreSafetyChecks:true]
+        
+      </Description> 
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
