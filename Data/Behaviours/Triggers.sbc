@@ -13,7 +13,7 @@
 
       [RivalAI Trigger]
       [Type:PlayerNear]
-      [UseTrigger:true]
+      [UseTrigger:false]
       [StartsReady:true]
       [TargetDistance:2800]
       [Actions:(NPC-SY)RemoveBlocks-Action]
@@ -39,10 +39,43 @@
 
       </Description>
       
-    </EntityComponent> <!-- (NPC-SY)RemoveControlBlock-Action -->
+    </EntityComponent> 
 
-   
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)EnableRemoveBlocks-Trigger</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:Timer]
+      [UseTrigger:true]
+      [StartsReady:false]
+      [MinCooldownMs:7500]
+      [MaxCooldownMs:10000]
+      [Actions:(NPC-SY)EnableRemoveBlocks-Action]
+      [MaxActions:1]
+      </Description>
+      
+    </EntityComponent> 
 	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>(NPC-SY)EnableRemoveBlocks-Action</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [EnableTriggers:true]
+      [EnableTriggerNames:(NPC-SY)RemoveBlocks-Trigger]
+      
+      </Description>
+      
+    </EntityComponent> 
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition"> 
       <Id>
           <TypeId>Inventory</TypeId>
